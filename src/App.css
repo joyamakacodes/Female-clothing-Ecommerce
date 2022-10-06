@@ -1,0 +1,112 @@
+.header{
+  /* background-image: url(./Images/image.jpg);
+  background-color: rgba(179, 13, 110);
+  background-size: cover; */
+  
+}
+.Navbar{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(179, 13, 110);
+  height: 8vh;
+  padding-top: 20px;
+}
+.logo{
+margin-top: -2em;
+}
+
+.link{
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0 2em;
+}
+.link:hover{
+  border-bottom: 5px solid white;
+  color: white;
+}
+.link:active{
+  border-bottom: 5px solid white;
+}
+.btnContainer{
+  display: flex;
+  /* width: 100vh; */
+  text-align: start;
+  column-gap: 2em;
+
+}
+.btn{
+  background-color:  white;
+  display: flex;
+  margin-left: 1em;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  color:rgb(179, 13, 110);
+}
+.btn:hover{
+  background-color: rgb(211, 143, 183);
+  color: white;
+}
+.cart{
+  font-size: 40px;
+  color: white;
+  margin-right: 1em;
+}
+.search{
+  border: none;
+  border-radius: 10px 0px 0px 10px;
+  padding: 0.5em;
+}
+.searchBtn{
+  background-color:  white;
+  /* display: flex; */
+  padding: 5px 10px;
+  border: none;
+  padding-bottom: 7px;
+  border-radius: 0px 10px 10px 0;
+  font-size: 0.95em;
+  color:rgb(179, 13, 110);
+}
+.searchBtn:hover{
+  background-color: rgb(211, 143, 183);
+  color: white;  
+}
+.form{
+  justify-content: end;
+}
+.carouselContainer{
+/* transform: translate(-50%, -50%); */
+  text-align: center;
+  
+}
+.HeadingContainer{
+  margin: -30em 0 20em ;
+  background-color: white;
+  border: 2px solid rgb(179, 13, 110);
+}
+.carouselImages{
+  width: 98.7vw;
+  height: 90vh;
+  /* background-color: rgba(0, 0, 0, 0.678); */
+}
+.CarouselHead{
+color: rgb(241, 133, 196);
+font-size: 3em;
+border-bottom: 5px solid white;
+}
+.carouselText{
+  font-size: 2em;
+  color: white;
+}
+.mainHead{
+  text-align: center;
+  color: rgb(179, 13, 110);
+}
+.cardContainer{
+  justify-content: center;
+}
+.cardImage{
+  width: 10%;
+}
